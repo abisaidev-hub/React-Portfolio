@@ -644,6 +644,10 @@ nav{
   transition: 0.5s;
 }
 
+.pop-up__email-confirmation p{
+  color: white;
+}
+
 .active__email-confirmation{
   transform: translate(0, 115px);
 }
