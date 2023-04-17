@@ -62,7 +62,7 @@ const Contact = () => {
               <p>
                 {isEnglish ? 'Thank you for your email!' : '¡Gracias por tu correo!'}
                 <br /><br />
-                {isEnglish ? 'I will get in contact with you shortly!' : 'Me contactaré contigo lo más pronto posible'}
+                {isEnglish ? 'I will get in contact with you shortly' : 'Me contactaré contigo lo más pronto posible'}
               </p>
             </div>
           </div>
