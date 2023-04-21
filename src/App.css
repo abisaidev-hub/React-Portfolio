@@ -636,7 +636,7 @@ nav{
 .pop-up__email-confirmation{
   position: fixed;
   z-index: 2;
-  top: -115px;
+  top: -120px;
   left: calc(50% - 125px);
   padding: 1rem;
   width: 250px;
@@ -653,7 +653,7 @@ nav{
 }
 
 .active__email-confirmation{
-  transform: translate(0, 115px);
+  transform: translate(0, 120px);
 }
 
 .contact__git-container h2{
@@ -1061,7 +1061,7 @@ nav{
   }
 
   .pop-up__email-confirmation{
-    top: -115px;
+    top: -120px;
     left: calc(50% - 150px);
     padding: 1rem;
     width: 300px;
