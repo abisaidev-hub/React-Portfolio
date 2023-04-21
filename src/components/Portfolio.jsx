@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import { html, css, js, react, reactrouterdom, redux, bootstrap, nodejs, pokedexbg, rickandmortybg, crudusersbg, weatherappbg, ecommercebg } from '../images';
+import { html, css, js, react, reactrouter, redux, bootstrap, nodejs, pokedexbg, rickandmortybg, crudusersbg, weatherappbg, ecommercebg } from '../images';
 import { useSelector } from 'react-redux';
 
 const Portfolio = () => {
@@ -23,13 +23,13 @@ const Portfolio = () => {
           <div className="portfolio_projects-webview-container">
             <div className="portfolio__projects-first-container">
             <ProjectCard
-                link='https://coruscating-alpaca-47dfdf.netlify.app/'
+                link='https://abisaidev-pokedex-app.netlify.app/'
                 technologies=
                 {
                   <>
                     <img src={react} />
                     <img src={redux} />
-                    <img src={reactrouterdom} />
+                    <img src={reactrouter} />
                     <img src={css} />
                     <img src={html} />
                   </>
@@ -44,13 +44,13 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__projects-second-container">
             <ProjectCard
-                link='https://idyllic-entremet-e13c00.netlify.app/'
+                link='https://abisaidev-ecommerce.netlify.app/'
                 technologies=
                 {
                   <>
                     <img src={react} />
                     <img src={redux} />
-                    <img src={reactrouterdom} />
+                    <img src={reactrouter} />
                     <img src={css} />
                     <img src={html} />
                   </>
@@ -64,13 +64,13 @@ const Portfolio = () => {
               />
               <div className="portfolio__projects-pokedex">
                 <ProjectCard
-                  link='https://coruscating-alpaca-47dfdf.netlify.app/'
+                  link='https://abisaidev-pokedex-app.netlify.app/'
                   technologies=
                   {
                     <>
                       <img src={react} />
                       <img src={redux} />
-                      <img src={reactrouterdom} />
+                      <img src={reactrouter} />
                       <img src={css} />
                       <img src={html} />
                     </>
@@ -84,7 +84,7 @@ const Portfolio = () => {
                 />
               </div>
               <ProjectCard
-              link='https://dapper-gaufre-dd4252.netlify.app/'
+              link='https://abisaidev-rick-and-morty-app.netlify.app/'
                 technologies=
                 {
                   <>
@@ -109,7 +109,7 @@ const Portfolio = () => {
             </div>
             <div className="more-projects__container fade-in">
               <ProjectCard
-                link='https://effortless-pithivier-f1c011.netlify.app/'
+                link='https://abisaidev-users-app.netlify.app/'
                 technologies=
                 {
                   <>
@@ -126,7 +126,7 @@ const Portfolio = () => {
                 }
               />
               <ProjectCard
-                link='https://bright-gelato-af26c0.netlify.app/'
+                link='https://abisaidev-weather-app.netlify.app/'
                 technologies=
                 {
                   <>

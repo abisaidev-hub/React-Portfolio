@@ -51,7 +51,7 @@ const Contact = () => {
                 name="user_email"
                 required
               />
-              <textarea name="message" id="" cols="30" rows="10" placeholder={isEnglish ? 'Description' : 'Descripción'} required>
+              <textarea name="message" id="" cols="30" rows="10" placeholder={isEnglish ? 'Message description' : 'Descripción del mensaje'} required>
               </textarea>
               <button type='submit' id='form-submit'>
                 {isEnglish ? 'Contact me' : 'Contáctame'}

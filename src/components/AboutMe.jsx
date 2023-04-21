@@ -1,7 +1,7 @@
 import React from 'react';
 import TechCard from './TechCard';
 import { useSelector } from 'react-redux';
-import { html, css, js, react, reactrouterdom, redux, bootstrap, nodejs, pokedexbg, rickandmortybg, crudusersbg } from '../images';
+import { html, css, js, react, reactrouter, redux, bootstrap, nodejs, git, tailwind, postgresql } from '../images';
 
 const AboutMe = () => {
 
@@ -51,8 +51,8 @@ const AboutMe = () => {
                 img={redux}
               />
               <TechCard
-                name='Router DOM'
-                img={reactrouterdom}
+                name='Router'
+                img={reactrouter}
               />
               <TechCard
                 name='Node'
@@ -67,12 +67,20 @@ const AboutMe = () => {
                 img={bootstrap}
               />
               <TechCard
+                name='Tailwind'
+                img={tailwind}
+              />
+              <TechCard
                 name='CSS'
                 img={css}
               />
               <TechCard
                 name='HTML'
                 img={html}
+              />
+              <TechCard
+                name='GIT'
+                img={git}
               />
             </ul>
           </div>
