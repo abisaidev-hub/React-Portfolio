@@ -11,11 +11,13 @@ const AboutMe = () => {
     <div className="about-me-body__container">
       <div className='about-me__container' id='skills'>
         <div className="about-me__about-me-container fade-in">
-          <div className="home__sqr">
-            <div className="home__line-bar"></div>
-          </div>
-          <div className="span__title-marked">
-            <span>/</span><h2>{isEnglish ? 'BACKGROUND' : 'TRAYECTORÍA'}</h2>
+          <div className="about-me-container__title">
+            <div className="home__sqr">
+              <div className="home__line-bar"></div>
+            </div>
+            <div className="span__title-marked">
+              <span>/</span><h2>{isEnglish ? 'BACKGROUND' : 'TRAYECTORÍA'}</h2>
+            </div>
           </div>
           {isEnglish ? (
               <p>I have employed technologies such as <b>Javascript</b>, <b>HTML</b>, <b>CSS</b>, and <b>React</b> (<b>React Router</b>, <b>Redux</b>) in the development of projects for this portfolio, which has expanded my skillset in application creation.
@@ -33,11 +35,13 @@ const AboutMe = () => {
         </div>
         <div className="divider-line" id='technologies'></div>
         <div className="about-me__technologies-container fade-in">
-          <div className="home__sqr">
-            <div className="home__line-bar"></div>
-          </div>
-          <div className="span__title-marked">
-            <span>/</span><h2>{isEnglish ? 'TECHNOLOGIES' : 'TECNOLOGíAS'}</h2>
+          <div className="technologies-container__title">
+            <div className="home__sqr">
+              <div className="home__line-bar"></div>
+            </div>
+            <div className="span__title-marked">
+              <span>/</span><h2>{isEnglish ? 'TECHNOLOGIES' : 'TECNOLOGíAS'}</h2>
+            </div>
           </div>
           <p>{isEnglish ? 'Improving my skills and knowledge with good practices' : 'Mejorando mis habilidades y conocimiento a través de las buenas prácticas'}</p>
           <div className="about-me___technologies-list-container">
