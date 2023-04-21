@@ -18,13 +18,13 @@ const AboutMe = () => {
             <span>/</span><h2>{isEnglish ? 'BACKGROUND' : 'TRAYECTORÍA'}</h2>
           </div>
           {isEnglish ? (
-              <p>I have employed technologies such as <b>Javascript</b>, <b>HTML</b>, <b>CSS</b>, and <b>React</b> (<b>React Router DOM</b>, <b>Redux</b>) in the development of projects for this portfolio, which has expanded my skillset in application creation.
+              <p>I have employed technologies such as <b>Javascript</b>, <b>HTML</b>, <b>CSS</b>, and <b>React</b> (<b>React Router</b>, <b>Redux</b>) in the development of projects for this portfolio, which has expanded my skillset in application creation.
               <br /><br />
               Currently, I am focusing on perfecting my skills in <b>React</b> and I am in the process of learning to expand my knowledge in <b>Node</b>.
               <br /><br />
               Furthermore, I am seeking <b>job opportunities</b> that allow me to <b>continue growing and developing professionally</b> in this field.</p>
             ) : (
-              <p>He empleado tecnologías como <b>Javascript</b>, <b>HTML</b>, <b>CSS</b> y <b>React</b> (<b>React Router DOM</b>, <b>Redux</b>) en el desarrollo de proyectos para este portafolio, lo que ha ampliado mi conjunto de habilidades en la creación de aplicaciones.
+              <p>He empleado tecnologías como <b>Javascript</b>, <b>HTML</b>, <b>CSS</b> y <b>React</b> (<b>React Router</b>, <b>Redux</b>) en el desarrollo de proyectos para este portafolio, lo que ha ampliado mi conjunto de habilidades en la creación de aplicaciones.
               <br /><br />
               Actualmente, me estoy enfocando en perfeccionar mis habilidades en <b>React</b> y me encuentro en un proceso de aprendizaje para ampliar mi conocimiento en <b>Node</b>.
               <br /><br />

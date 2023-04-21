@@ -6,6 +6,13 @@ import { useSelector } from 'react-redux';
 
 const Home = () => {
 
+  const downloadCV = () => {
+    document.getElementById('download-cv').classList.add('active__download-cv');
+    setTimeout(() => {
+      document.getElementById('download-cv').classList.remove('active__download-cv');
+    }, 3000);
+  }
+
   const isEnglish = useSelector(state => state.isEnglish)
 
   return (
@@ -38,14 +45,21 @@ const Home = () => {
             <div className="home__cv">
               <h3>{isEnglish ? 'Download my CV' : 'Descarga mi CV'}</h3>
               <div className="home__cv-both">
-                <a href={isEnglish ? CV_ENG : CV_ESP} download>
+                <a href={isEnglish ? CV_ENG : CV_ESP} download onClick={downloadCV}>
                   <h3>{isEnglish ? 'ENG' : 'ESP'}</h3>
                   <div className="home__line-bar"></div>
                 </a>
-                <a href={isEnglish ? CV_ESP : CV_ENG} download>
+                <a href={isEnglish ? CV_ESP : CV_ENG} download onClick={downloadCV}>
                   <h3>{isEnglish ? 'ESP' : 'ENG'}</h3>
                   <div className="home__line-bar"></div>
                 </a>
+              </div>
+              <div className="pop-up__download-cv" id='download-cv'>
+                <p>
+                  {isEnglish ? 'Done!' : '¡Listo!'}
+                  <br /><br />
+                  {isEnglish ? 'Download started' : 'Descarga iniciada'}
+                </p>
               </div>
             </div>
           </div>
