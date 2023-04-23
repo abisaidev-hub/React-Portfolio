@@ -14,8 +14,10 @@ const Portfolio = () => {
           <div className="home__line-bar"></div>
         </div>
         <div className="portfolio__title-and-descritpion fade-in">
-          <div className="span__title-marked">
-            <span>/</span><h2>{isEnglish ? 'PORTFOLIO' : 'PORTAFOLIO'}</h2>
+          <div className="portfolio__title">
+            <div className="span__title-marked">
+              <span>/</span><h2>{isEnglish ? 'PORTFOLIO' : 'PORTAFOLIO'}</h2>
+            </div>
           </div>
           <p>{isEnglish ? `Take a look at the latest projects I've done!` : '¡Échale un ojo a los últimos proyectos que he hecho!'}</p>
         </div>

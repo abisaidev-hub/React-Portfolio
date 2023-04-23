@@ -28,6 +28,26 @@ body{
   color: white;
 }
 
+h1{
+  font-size: 1.8em;
+}
+
+h2{
+  font-size: 1.35em;
+}
+
+h3{
+  font-size: 1.053em;
+}
+
+h4{
+  font-size: 0.9em;
+}
+
+p{
+  font-size: 0.9em;
+}
+
 .App p{
   color: var(--text-color);
 }
@@ -134,7 +154,7 @@ nav{
 
 .nav__options-overlay ul li a{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.35em;
   font-weight: bold;
   color: var(--text-color);
   transition: 0.3s;
@@ -414,7 +434,7 @@ nav{
 .tech-card__container{
   list-style: none;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.7em;
   background-color: var(--card-bg-color);
   background-color: var(--secondary-color);
   border-radius: 0.5rem;
@@ -459,7 +479,10 @@ nav{
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+}
+
+.portfolio__title{
+  margin: 0 0 1.5rem 0;
 }
 
 .portfolio__projects-container{
@@ -590,7 +613,7 @@ nav{
   transition: 0.3s;
   color: white;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9em;
 }
 
 .contact__form-container form textarea{
@@ -601,7 +624,7 @@ nav{
   transition: 0.3s;
   color: white;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .contact__form-container form input:focus,
@@ -623,7 +646,7 @@ nav{
   font-weight: bold;
   color: white;
   background-color: transparent;
-  font-size: 1.3rem;
+  font-size: 1.053em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -809,6 +832,26 @@ nav{
 
 @media screen and ( min-width: 992px ){
 
+  h1{
+    font-size: 2em;
+  }
+  
+  h2{
+    font-size: 1.5em;
+  }
+  
+  h3{
+    font-size: 1.17em;
+  }
+  
+  h4{
+    font-size: 1em;
+  }
+  
+  p{
+    font-size: 1em;
+  }
+
   /* Nav */
 
   nav{
@@ -843,7 +886,7 @@ nav{
   }
 
   .nav__options-overlay ul li a{
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
   .nav__language-option{
@@ -851,7 +894,7 @@ nav{
   }
   
   .nav__language-option h2{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     color: var(--text-color);
     margin-left: 0.35rem;
   }
@@ -1065,6 +1108,11 @@ nav{
 
   .contact__form-container form{
     width: 320px;
+  }
+
+  .contact__form-container form input,
+  .contact__form-container form textarea{
+    font-size: 1em;
   }
 
   .contact__form-container button{
