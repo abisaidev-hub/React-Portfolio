@@ -476,12 +476,15 @@ nav{
 }
 
 .portfolio__title-and-descritpion{
-  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
 .portfolio__title{
+  margin: 0 0 1.5rem 0;
+}
+
+.portfolio__description{
   margin: 0 0 1.5rem 0;
 }
 

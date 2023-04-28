@@ -29,13 +29,15 @@ const Contact = () => {
   return (
     <div className="contact-body__container">
       <div className='contact__container' id='contact'>
-        <div className="contact__description-form-container fade-in">
+        <div className="contact__description-form-container">
           <div className="contact__description">
-            <div className="home__sqr">
+            <div className="home__sqr" data-aos="fade-right">
               <div className="home__line-bar"></div>
             </div>
-            <h2>{isEnglish ? 'Interested in working together?' : '¿Interesado/a en trabajar juntos?'}</h2>
-            <h2>{isEnglish ? `Let's talk!` : '¡Hablemos!'}</h2>
+            <div data-aos="fade-right">
+              <h2>{isEnglish ? 'Interested in working together?' : '¿Interesado/a en trabajar juntos?'}</h2>
+              <h2>{isEnglish ? `Let's talk!` : '¡Hablemos!'}</h2>
+            </div>
           </div>
           <div className="contact__form-container">
             <form ref={form} onSubmit={sendEmail}>
@@ -44,16 +46,18 @@ const Contact = () => {
                 placeholder={isEnglish ? 'Enter your name' : 'Escribe tu nombre'}
                 name="user_name"
                 required
+                data-aos="fade-up"
               />
               <input
                 type="email"
                 placeholder={isEnglish ? 'Your email address' : 'Tu correo'}
                 name="user_email"
                 required
+                data-aos="fade-up"
               />
-              <textarea name="message" id="" cols="30" rows="10" placeholder={isEnglish ? 'Message description' : 'Descripción del mensaje'} required>
+              <textarea name="message" id="" cols="30" rows="10" placeholder={isEnglish ? 'Message description' : 'Descripción del mensaje'} required data-aos="fade-up">
               </textarea>
-              <button type='submit' id='form-submit'>
+              <button type='submit' id='form-submit' data-aos="fade-up">
                 {isEnglish ? 'Contact me' : 'Contáctame'}
                 <div className="home__line-bar"></div>
               </button>
@@ -67,14 +71,16 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact__git-title-contact-container fade-in">
+        <div className="contact__git-title-contact-container">
           <div className="contact__git-container">
-            <div className="home__sqr">
+            <div className="home__sqr" data-aos="fade-right">
               <div className="home__line-bar"></div>
             </div>
-            <h2>{isEnglish ? 'Get in touch with me' : 'Ponte en contacto conmigo'}</h2>
+            <div data-aos="fade-right">
+              <h2>{isEnglish ? 'Get in touch with me' : 'Ponte en contacto conmigo'}</h2>
+            </div>
           </div>
-          <div className="git__contact-media-container">
+          <div className="git__contact-media-container" data-aos="fade-up">
             <div className="git__contact-media">
               <h4>EMAIL:</h4>
               <a href="mailto:abisaidev@outlook.com" target='_blank' className='git__contact-link'>

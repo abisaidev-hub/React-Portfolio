@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="home-body__container">
-      <div className='home__container fade-in' id='home'>
+      <div className='home__container' id='home' data-aos="fade-up">
         <div className="home__presentation">
           <div className="home__presentation-description">
             <div className="home__sqr">

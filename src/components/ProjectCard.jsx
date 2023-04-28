@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({link, technologies, name, description, img}) => {
   return (
-    <a href={link} target='_blank' className='project-card__container fade-in'>
+    <a href={link} target='_blank' className='project-card__container' data-aos="zoom-in-up">
       <div className="project-card__technologies-container">
         {technologies}
       </div>

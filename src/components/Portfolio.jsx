@@ -10,15 +10,17 @@ const Portfolio = () => {
   return (
     <div className="portfolio-body__container">
       <div className='portfolio__container' id='portfolio'>
-        <div className="home__sqr fade-in">
+        <div className="home__sqr" data-aos="fade-right">
           <div className="home__line-bar"></div>
         </div>
-        <div className="portfolio__title-and-descritpion fade-in">
+        <div className="portfolio__title-and-descritpion" data-aos="fade-right">
           <div className="portfolio__title">
             <div className="span__title-marked">
               <span>/</span><h2>{isEnglish ? 'PORTFOLIO' : 'PORTAFOLIO'}</h2>
             </div>
           </div>
+        </div>
+        <div className='portfolio__description' data-aos="fade-up">
           <p>{isEnglish ? `Take a look at the latest projects I've done!` : '¡Échale un ojo a los últimos proyectos que he hecho!'}</p>
         </div>
         <div className="portfolio__projects-container">
@@ -105,11 +107,11 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="divider-line"></div>
-          <div className="portfolio__more-projects-container fade-in">
-            <div className="more-projects__title-and-description">
+          <div className="portfolio__more-projects-container">
+            <div className="more-projects__title-and-description" data-aos="fade-right">
               <h3>{isEnglish ? 'More projects' : 'Más proyectos'}</h3>
             </div>
-            <div className="more-projects__container fade-in">
+            <div className="more-projects__container" data-aos="fade-up">
               <ProjectCard
                 link='https://abisaidev-users-app.netlify.app/'
                 technologies=
