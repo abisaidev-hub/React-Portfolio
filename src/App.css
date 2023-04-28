@@ -384,6 +384,7 @@ nav{
   align-items: center;
   gap: 1rem;
   width: 100%;
+  max-width: 1200px;
 }
 
 .home__profile-picture img{
@@ -955,20 +956,22 @@ nav{
 
   .home__profile-picture{
     position: absolute;
-    bottom: 2rem;
+    /*bottom: 2rem;
+    height: 100%;*/
+    gap: 30vh;
     width: 90%;
-    height: 50%;
+    flex-direction: column-reverse;
+    align-items: center;
     z-index: -1;
-    max-width: 1200px;
   }
 
   .home__profile-picture img{
-    height: 100%;
-    width: auto;
+    height: 500px;
+    width: fit-content;
   }
 
   .home__profile-picture p{
-    display: none;
+    visibility: hidden;
   }
 
   /* About me */
