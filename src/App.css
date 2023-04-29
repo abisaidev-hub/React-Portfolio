@@ -15,6 +15,7 @@
   box-sizing: border-box;
   font-family: 'Space Grotesk', sans-serif;
   scroll-behavior: smooth;
+  outline: 1px solid red;
 }
 
 body{
@@ -922,6 +923,7 @@ nav{
     display: flex;
     height: 90vh;
     justify-content: space-between;
+    padding: 12vh 0 0 0;
   }
 
   .home__line-bar{
@@ -934,6 +936,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    padding: 0 0 0 2rem;
   }
 
   .home__presentation-description h2{
@@ -948,6 +951,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 2rem 0 0;
   }
 
   .home__cv h3{
@@ -959,7 +963,7 @@ nav{
     /*bottom: 2rem;
     height: 100%;*/
     gap: 30vh;
-    width: 90%;
+    width: 100%;
     flex-direction: column-reverse;
     align-items: center;
     z-index: -1;
