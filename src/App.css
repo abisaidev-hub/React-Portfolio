@@ -439,12 +439,14 @@ nav{
   background-color: var(--card-bg-color);
   background-color: var(--secondary-color);
   border-radius: 0.5rem;
-  transition: 0.3s;
   width: 30.2%;
+  cursor: pointer;
 }
 
-.tech-card__container:hover{
-  transform: translate(0, -10px);
+.tech-card__container:hover .tech-card__img img{
+  -webkit-transform: rotate(3deg) scale(1.2);
+  -ms-transform: rotate(3deg) scale(1.2);
+  transform: rotate(3deg) scale(1.2);
 }
 
 .tech-card__title{
@@ -466,6 +468,7 @@ nav{
 
 .tech-card__img img{
   width: 30px;
+  transition: transform 0.3s;
 }
 
 /* Portfolio */
@@ -523,11 +526,14 @@ nav{
   flex-direction: column;
   justify-content: space-between;
   transition: 0.5s;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.project-card__container:hover{
-  cursor: pointer;
-  transform: translate(0, -20px);
+.project-card__container:hover .project-card__img img{
+  -webkit-transform: rotate(2deg) scale(1.1);
+  -ms-transform: rotate(2deg) scale(1.1);
+  transform: rotate(2deg) scale(1.1); 
 }
 
 .project-card__technologies-container{
@@ -553,6 +559,7 @@ nav{
 .project-card__img img{
   width: 100%;
   border-radius: 0 0 1rem 1rem;
+  transition: transform 0.3s;
 }
 
 /* - */
