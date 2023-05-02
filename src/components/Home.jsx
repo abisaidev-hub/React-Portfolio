@@ -24,7 +24,7 @@ const Home = () => {
               <div className="home__line-bar"></div>
             </div>
             <h2>{isEnglish ? 'Nice to meet you' : 'Gusto en conocerte'}</h2>
-            <h1>{isEnglish ? `I'm Abisai, React Developer` : 'Soy Abisai, Desarrollador React'}</h1>
+            <h1>{isEnglish ? `I'm Abisai, Front-End Developer` : 'Soy Abisai, Desarrollador Front-End'}</h1>
             <p>{isEnglish ? 'I love challenges and learn something new everyday!' : '¡Me encantan los retos y aprender algo nuevo cada día!'}</p>
           </div>
           <div className="home__contact-media">
