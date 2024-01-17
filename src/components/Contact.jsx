@@ -90,8 +90,8 @@ const Contact = () => {
             </div>
             <div className="git__contact-media">
               <h4>WHATSAPP:</h4>
-              <a href="http://wa.me/522215910702" target='_blank' className='git__contact-link'>
-                <h3>+52 221 591 0702</h3>
+              <a href="http://wa.me/522221241201" target='_blank' className='git__contact-link'>
+                <h3>+52 222 124 1201</h3>
                 <div className="home__line-bar"></div>
               </a>
             </div>

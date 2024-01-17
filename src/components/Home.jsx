@@ -1,5 +1,5 @@
 import React from 'react';
-import ownpicture from '../images/ownpicture.png'
+import ownpicture from '../images/ownpicture.webp'
 import CV_ENG from '../files/CV_ENG.pdf'
 import CV_ESP from '../files/CV_ESP.pdf'
 import { useSelector } from 'react-redux';
