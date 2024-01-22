@@ -1,7 +1,7 @@
 import React from 'react';
 import TechCard from './TechCard';
 import { useSelector } from 'react-redux';
-import { html, css, js, react, reactrouter, redux, bootstrap, nodejs, git, tailwind, postgresql } from '../images';
+import { html, css, js, react, reactrouter, redux, bootstrap, nodejs, git, tailwind, postgresql, ts } from '../images';
 
 const AboutMe = () => {
 
@@ -53,6 +53,14 @@ const AboutMe = () => {
           <div className="about-me___technologies-list-container">
             <ul>
               <TechCard
+                name='Typescript'
+                img={ts}
+              />              
+              <TechCard
+                name='Javascript'
+                img={js}
+              />
+              <TechCard
                 name='React'
                 img={react}
               />
@@ -67,10 +75,6 @@ const AboutMe = () => {
               <TechCard
                 name='Node'
                 img={nodejs}
-              />
-              <TechCard
-                name='Javascript'
-                img={js}
               />
               <TechCard
                 name='Bootstrap'

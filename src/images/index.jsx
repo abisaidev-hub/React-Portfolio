@@ -14,3 +14,4 @@ export { default as ecommercebg } from './ecommercebg.webp';
 export { default as git } from './git.svg';
 export { default as tailwind } from './tailwind.svg';
 export { default as postgresql } from './postgresql.svg';
+export { default as ts } from './ts.svg';
